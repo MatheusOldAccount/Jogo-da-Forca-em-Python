@@ -1,5 +1,5 @@
 from os import system, name
-palavrasecreta = str(input('Digite a palavra secreta desejada para o jogo da velha e peça para o seu amigo tapar os olhos: ')).upper()
+palavrasecreta = str(input('Digite a palavra secreta desejada para o jogo e peça para o seu amigo tapar os olhos: ')).upper()
 while True:
     try:
         vidas = int(input('Quantas vezes a pessoa pode errar antes de perder? '))
